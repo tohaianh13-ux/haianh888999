@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trà Sữa Hải Anh - Thực Đơn Phong Phú | Giá Cực Yêu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpeg" href="logo-hai-anh.jpg">
+</head>
+<body>
+
+  <!-- KHUNG BAO BỌC TOÀN TRANG (SITE WRAPPER) -->
+  <div class="site-wrapper">
+
+    <!-- ====================================================================
+         1. TOP ROW: HEADER (Chứa Logo, Slogan, Ảnh minh họa/Tiện ích)
+         ==================================================================== -->
+    <div class="header-row">
+      <!-- Logo & Thương hiệu -->
+      <div class="header-brand">
+        <a href="index.html" class="brand-logo-badge" title="Trà Sữa Hải Anh - Trang Chủ">
+          <img src="logo-hai-anh.jpg" alt="Logo Trà Sữa Hải Anh" class="brand-logo-img">
+        </a>
+        <div class="brand-info">
+          <h1>Trà Sữa Hải Anh</h1>
+          <p class="brand-slogan">"Vị ngọt thanh xuân - Đậm đà từng ngụm yêu thương"</p>
+        </div>
+      </div>
+
+      <!-- Tiện ích nổi bật & Hotline -->
+      <div class="header-highlights">
+        <div class="highlight-box">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"/></svg>
+          </div>
+          <div class="highlight-text">
+            <span>Giờ phục vụ</span>
+            <strong>08:00 - 22:30</strong>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>
+          </div>
+          <div class="highlight-text">
+            <span>Hotline giao hàng</span>
+            <strong><a href="tel:0373702762" style="color: inherit; text-decoration: none;">0373 702 762</a></strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         2. SECOND ROW: NAVIGATION MENU (Chuyển đổi giữa 4 trang con)
+         ==================================================================== -->
+    <div class="nav-row">
+      <div class="nav-container">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">
+              <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+              Trang Chủ
+            </a>
+          </li>
+          <li>
+            <a href="menu.html" class="nav-link active">
+              <svg viewBox="0 0 24 24"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.1 1.7 3.8 3.8 4v7h2.4v-7c2.1-.2 3.8-1.9 3.8-4V2h-2v7zm5-3v10h2V2h-4c-1.1 0-2 .9-2 2v16h2V6h2z"/></svg>
+              Thực Đơn
+              <span class="nav-badge-pill">Hot</span>
+            </a>
+          </li>
+          <li>
+            <a href="checkout.html" class="nav-link">
+              <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+              Thanh Toán
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+              Về Chúng Tôi
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              Liên Hệ
+            </a>
+          </li>
+        </ul>
+
+        <a href="checkout.html" class="nav-order-fast">
+          <span>Đặt Hàng Ngay</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42L16.86 11H5v2z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         3. THIRD ROW: 3 CỘT SONG SONG (Left - Main Content - Right)
+         ==================================================================== -->
+    <div class="body-wrapper">
+
+      <!-- CỘT TRÁI: Content (Khuyến mãi & Tin tức) -->
+      <div class="side-column left-column">
+        <!-- Widget 1: Khuyến Mãi Nổi Bật -->
+        <div class="widget-box">
+          <div class="widget-header">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"/></svg>
+              Ưu Đãi Hôm Nay
+            </h3>
+          </div>
+          <div class="widget-body">
+            <div class="promo-item">
+              <span class="promo-badge">Giờ Vàng 14h - 17h</span>
+              <h4 class="promo-title">Mua 2 Tặng 1 Trà Sữa</h4>
+              <p class="promo-desc">Tặng ngay 1 ly Trà Sữa Trân Châu khi mua 2 ly size L bất kỳ.</p>
+              <div class="promo-code-wrap">
+                <span class="promo-code">HAIANHHAPPY</span>
+                <span class="promo-code-btn">ÁP DỤNG</span>
+              </div>
+            </div>
+
+            <div class="promo-item">
+              <span class="promo-badge">Thành Viên Mới</span>
+              <h4 class="promo-title">Giảm 20% Đơn Đầu</h4>
+              <p class="promo-desc">Nhập mã giảm giá cho hóa đơn trà sữa đầu tiên trên website.</p>
+              <div class="promo-code-wrap">
+                <span class="promo-code">WELCOMEHAIANH</span>
+                <span class="promo-code-btn">ÁP DỤNG</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Widget 2: Tin Tức & Mẹo Hay -->
+        <div class="widget-box">
+          <div class="widget-header">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+              Tin Tức & Mẹo Vặt
+            </h3>
+          </div>
+          <div class="widget-body">
+            <div class="news-mini-item">
+              <div class="news-thumb-box">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
+              </div>
+              <div class="news-mini-content">
+                <h5 class="news-mini-title">Bí quyết chọn độ ngọt & mức đá chuẩn sành điệu</h5>
+                <span class="news-mini-date">2 giờ trước</span>
+              </div>
+            </div>
+
+            <div class="news-mini-item">
+              <div class="news-thumb-box">
+                <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg>
+              </div>
+              <div class="news-mini-content">
+                <h5 class="news-mini-title">Trà Ô Long nướng: Hương vị bừng tỉnh vị giác</h5>
+                <span class="news-mini-date">Hôm qua</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Widget 3: Góc Đánh Giá -->
+        <div class="widget-box">
+          <div class="widget-header">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              Khách Hàng Nói Gì
+            </h3>
+          </div>
+          <div class="widget-body">
+            <div class="review-quote-box">
+              <p class="review-quote-text">"Trà sữa nướng Hải Anh có lớp kem cheese béo ngậy vừa phải, trân châu hoàng kim dai giòn sần sật 10 điểm!"</p>
+              <span class="review-quote-author">— Thảo My (Hà Nội)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CỘT GIỮA: Main Content (Nội Dung Chính: THỰC ĐƠN ĐA DẠNG) -->
+      <div class="main-content">
+        <!-- Tiêu đề trang Menu -->
+        <div class="section-header">
+          <h3 class="section-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.1 1.7 3.8 3.8 4v7h2.4v-7c2.1-.2 3.8-1.9 3.8-4V2h-2v7zm5-3v10h2V2h-4c-1.1 0-2 .9-2 2v16h2V6h2z"/></svg>
+            Thực Đơn Trà & Thức Uống Hải Anh
+          </h3>
+          <span class="section-subtitle">Tươi mới • Đậm vị • Tự nhiên</span>
+        </div>
+
+        <!-- Thanh phân loại danh mục -->
+        <div class="menu-filter-bar">
+          <a href="#tra-sua" class="filter-chip active">Tất Cả Món</a>
+          <a href="#tra-sua" class="filter-chip">Trà Sữa Truyền Thống</a>
+          <a href="#tra-trai-cay" class="filter-chip">Trà Trái Cây Tươi</a>
+          <a href="#sua-tuoi" class="filter-chip">Sữa Tươi & Macchiato</a>
+          <a href="#topping" class="filter-chip">Topping Thêm</a>
+        </div>
+
+        <!-- NHÓM 1: TRÀ SỮA ĐẬM VỊ -->
+        <div id="tra-sua">
+          <h4 class="menu-category-title">1. Trà Sữa Nguyên Bản & Nướng Đậm Đà</h4>
+          <div class="product-grid">
+            <!-- Món 1 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Best Seller</span>
+              <div class="product-img-box">
+                <a href="#modal-hoang-kim" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-sua-tran-chau-hoang-kim.jpg" alt="Trà Sữa Trân Châu Hoàng Kim" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Sữa Trân Châu Hoàng Kim</h4>
+              <p class="product-desc">Đậm vị trà sữa, thơm béo hảo hạng cùng trân châu hoàng kim giòn dai ngọt thanh.</p>
+              <div class="product-card-footer">
+                <span class="product-price">35.000đ</span>
+                <a href="checkout.html?item=hoang-kim" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+
+            <!-- Món 2 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Hot</span>
+              <div class="product-img-box">
+                <a href="#modal-o-long" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-o-long-sua-kem-pho-mai.jpg" alt="Trà Ô Long Sữa Kem Phô Mai" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Ô Long Sữa Kem Phô Mai</h4>
+              <p class="product-desc">Hương trà thanh tao, kết hợp cùng lớp kem phô mai béo mịn và sữa tươi nguyên chất.</p>
+              <div class="product-card-footer">
+                <span class="product-price">42.000đ</span>
+                <a href="checkout.html?item=o-long" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+
+            <!-- Món 3 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Thơm Mát</span>
+              <div class="product-img-box">
+                <a href="#modal-nhai-kem-trung" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-nhai-sua-kem-trung-dua.jpg" alt="Trà Nhài Sữa Kem Trứng Dừa" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Nhài Sữa Kem Trứng Dừa</h4>
+              <p class="product-desc">Hương trà nhài thanh khiết, kết hợp cùng kem trứng béo mịn và vị dừa thơm ngon khó cưỡng.</p>
+              <div class="product-card-footer">
+                <span class="product-price">45.000đ</span>
+                <a href="checkout.html?item=nhai-kem-trung" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+
+            <!-- Món 4 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Thanh Mát</span>
+              <div class="product-img-box">
+                <a href="#modal-o-long-nhai" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-o-long-nhai.jpg" alt="Trà Ô Long Nhài" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Ô Long Nhài</h4>
+              <p class="product-desc">Cốt trà ô long thanh khiết, ướp hoa nhài tự nhiên thơm dịu, nhẹ nhàng và thanh mát.</p>
+              <div class="product-card-footer">
+                <span class="product-price">35.000đ</span>
+                <a href="checkout.html?item=o-long-nhai" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NHÓM 2: TRÀ TRÁI CÂY THANH MÁT -->
+        <div id="tra-trai-cay">
+          <h4 class="menu-category-title">2. Trà Trái Cây Tươi Nhiệt Đới (Thanh Lọc Giải Nhiệt)</h4>
+          <div class="product-grid">
+            <!-- Món 5 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Must Try</span>
+              <div class="product-img-box">
+                <a href="#modal-dao-cam-sa" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-dao-cam-sa-tuoi-mat.jpg" alt="Trà Đào Cam Sả Tươi Mát" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Đào Cam Sả Tươi Mát</h4>
+              <p class="product-desc">Hương đào ngọt dịu, kết hợp cam tươi mọng nước và sả thơm mát giải nhiệt ngày hè.</p>
+              <div class="product-card-footer">
+                <span class="product-price">38.000đ</span>
+                <a href="checkout.html?item=dao-cam-sa" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+
+            <!-- Món 5 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Healthy</span>
+              <div class="product-img-box">
+                <a href="#modal-dau-tay" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-dau-tay-luc-tra-thanh-yen.jpg" alt="Trà Dâu Tây Lục Trà Thanh Yên" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Dâu Tây Lục Trà Thanh Yên</h4>
+              <p class="product-desc">Thanh mát từ lục trà, ngọt ngào từ dâu tây tươi và thơm dịu vị thanh yên tự nhiên.</p>
+              <div class="product-card-footer">
+                <span class="product-price">42.000đ</span>
+                <a href="checkout.html?item=dau-tay" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+
+            <!-- Món 6 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Mát Lạnh</span>
+              <div class="product-img-box">
+                <a href="#modal-chanh-leo" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-xanh-chanh-leo-hat-chia.jpg" alt="Trà Xanh Chanh Leo Hạt Chia" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Xanh Chanh Leo Hạt Chia</h4>
+              <p class="product-desc">Trà xanh thơm dịu mát kết hợp chanh leo thơm nồng, chua nhẹ tự nhiên và hạt chia bổ dưỡng.</p>
+              <div class="product-card-footer">
+                <span class="product-price">36.000đ</span>
+                <a href="checkout.html?item=chanh-leo" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+
+            <!-- Món mới: Trà Việt Quất -->
+            <div class="product-card">
+              <span class="product-badge-corner">Mới Ra Mắt</span>
+              <div class="product-img-box">
+                <a href="#modal-viet-quat" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="tra-viet-quat.jpg" alt="Trà Việt Quất" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Trà Việt Quất</h4>
+              <p class="product-desc">Thanh mát chua nhẹ, vị ngọt dịu thơm lừng hương việt quất tươi ngon mỗi ngày.</p>
+              <div class="product-card-footer">
+                <span class="product-price">38.000đ</span>
+                <a href="checkout.html?item=viet-quat" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NHÓM 3: SỮA TƯƠI THANH TRÙNG & MACCHIATO -->
+        <div id="sua-tuoi">
+          <h4 class="menu-category-title">3. Sữa Tươi Thanh Trùng & Macchiato</h4>
+          <div class="product-grid">
+            <!-- Món 7 -->
+            <div class="product-card">
+              <span class="product-badge-corner">Yêu Thích</span>
+              <div class="product-img-box">
+                <a href="#modal-duong-den" class="product-img-zoom" title="Nhấn để xem ảnh phóng to đầy đủ">
+                  <img src="sua-tuoi-tran-chau-duong-den.jpg" alt="Sữa Tươi Trân Châu Đường Đen" loading="lazy">
+                  <span class="zoom-pill">🔍 Xem đầy đủ</span>
+                </a>
+              </div>
+              <h4>Sữa Tươi Trân Châu Đường Đen</h4>
+              <p class="product-desc">Sữa tươi béo ngậy kết hợp cùng trân châu đường đen dẻo dai thơm ngon khó cưỡng.</p>
+              <div class="product-card-footer">
+                <span class="product-price">40.000đ</span>
+                <a href="checkout.html?item=duong-den" class="btn-add-cart">+ Đặt Mua</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NHÓM 4: BẢNG GIÁ TOPPING THÊM -->
+        <div id="topping" class="topping-table-wrap">
+          <h4 class="menu-category-title" style="margin-top: 0;">4. Bảng Giá Topping Tự Chọn Cao Cấp</h4>
+          <table class="topping-table">
+            <thead>
+              <tr>
+                <th>Tên Topping Tươi</th>
+                <th>Mô Tả Hương Vị</th>
+                <th>Phân Loại</th>
+                <th>Đơn Giá</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Trân Châu Hoàng Kim</strong></td>
+                <td>Dẻo mềm, ngâm mật ong hoa nhãn thơm ngát</td>
+                <td><span class="topping-tag">Phổ Biến</span></td>
+                <td><strong style="color: var(--accent-rose);">5.000đ</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Kem Phô Mai Tươi (Cheese Macchiato)</strong></td>
+                <td>Kem mặn béo ngậy đánh bông từ cream cheese New Zealand</td>
+                <td><span class="topping-tag">Đặc Biệt</span></td>
+                <td><strong style="color: var(--accent-rose);">10.000đ</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Trân Châu Trắng Thủy Tinh</strong></td>
+                <td>Giòn sần sật, thanh mát không ngọt gắt</td>
+                <td><span class="topping-tag">Thanh Mát</span></td>
+                <td><strong style="color: var(--accent-rose);">7.000đ</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Pudding Trứng Sữa Tươi</strong></td>
+                <td>Mềm mịn tan ngay trong miệng vị vani tự nhiên</td>
+                <td><span class="topping-tag">Béo Ngọt</span></td>
+                <td><strong style="color: var(--accent-rose);">8.000đ</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Thạch Củ Năng Bọc Trân Châu</strong></td>
+                <td>Vỏ dai ngoài, nhân củ năng giòn rụm bên trong</td>
+                <td><span class="topping-tag">Món Mới</span></td>
+                <td><strong style="color: var(--accent-rose);">8.000đ</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <!-- CỘT PHẢI: Content (Giỏ hàng & Sản phẩm bán chạy) -->
+      <div class="side-column right-column">
+        <!-- Widget 1: Giỏ Hàng Tạm Tính -->
+        <div class="widget-box">
+          <div class="widget-header">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+              Giỏ Hàng Của Bạn
+            </h3>
+          </div>
+          <div class="widget-body">
+            <ul class="cart-list">
+              <li class="cart-item">
+                <div>
+                  <span class="cart-item-name">Trà Sữa Kim Cương (M)</span>
+                  <span class="cart-item-sub">1x Trân châu đen • 50% đường</span>
+                </div>
+                <span class="cart-item-price">35.000đ</span>
+              </li>
+              <li class="cart-item">
+                <div>
+                  <span class="cart-item-name">Ô Long Kem Cheese (L)</span>
+                  <span class="cart-item-sub">1x Kem béo • 70% đá</span>
+                </div>
+                <span class="cart-item-price">42.000đ</span>
+              </li>
+            </ul>
+
+            <div class="cart-summary">
+              <div class="cart-sum-row">
+                <span>Số lượng món:</span>
+                <strong>2 món</strong>
+              </div>
+              <div class="cart-sum-row">
+                <span>Phí giao hàng:</span>
+                <strong style="color: var(--mint-dark);">Miễn phí</strong>
+              </div>
+              <div class="cart-sum-row cart-sum-total">
+                <span>Tạm tính:</span>
+                <span style="color: var(--accent-rose);">77.000đ</span>
+              </div>
+            </div>
+
+            <a href="checkout.html" class="cart-checkout-btn">Thanh Toán Ngay ➔</a>
+          </div>
+        </div>
+
+        <!-- Widget 2: Bán Chạy Nhất (Best Sellers) -->
+        <div class="widget-box">
+          <div class="widget-header">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.96.76 1.58V19z"/></svg>
+              Top Bán Chạy
+            </h3>
+          </div>
+          <div class="widget-body">
+            <ul class="bestseller-list">
+              <li class="bestseller-item">
+                <span class="bestseller-rank rank-1">1</span>
+                <div class="bestseller-info">
+                  <h5 class="bestseller-name">Trà Sữa Trân Châu Hoàng Kim</h5>
+                  <span class="bestseller-rating">★★★★★ (1.2k)</span>
+                </div>
+                <span class="bestseller-price">35k</span>
+              </li>
+
+              <li class="bestseller-item">
+                <span class="bestseller-rank rank-2">2</span>
+                <div class="bestseller-info">
+                  <h5 class="bestseller-name">Ô Long Sữa Kem Phô Mai</h5>
+                  <span class="bestseller-rating">★★★★★ (980)</span>
+                </div>
+                <span class="bestseller-price">42k</span>
+              </li>
+
+              <li class="bestseller-item">
+                <span class="bestseller-rank rank-3">3</span>
+                <div class="bestseller-info">
+                  <h5 class="bestseller-name">Sữa Tươi Trân Châu Đường Đen</h5>
+                  <span class="bestseller-rating">★★★★☆ (820)</span>
+                </div>
+                <span class="bestseller-price">40k</span>
+              </li>
+
+              <li class="bestseller-item">
+                <span class="bestseller-rank rank-4">4</span>
+                <div class="bestseller-info">
+                  <h5 class="bestseller-name">Trà Đào Cam Sả Tươi Mát</h5>
+                  <span class="bestseller-rating">★★★★☆ (650)</span>
+                </div>
+                <span class="bestseller-price">38k</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Widget 3: Cam Kết Dịch Vụ -->
+        <div class="widget-box">
+          <div class="widget-header">
+            <h3>
+              <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+              Cam Kết Từ Hải Anh
+            </h3>
+          </div>
+          <div class="widget-body">
+            <div class="commit-item">
+              <span class="commit-icon">✓</span>
+              <span>Giao hỏa tốc trong 30 phút</span>
+            </div>
+            <div class="commit-item">
+              <span class="commit-icon">✓</span>
+              <span>100% Sữa tươi sạch thanh trùng</span>
+            </div>
+            <div class="commit-item">
+              <span class="commit-icon">✓</span>
+              <span>Đổi trả nếu ly bị tràn/đổ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ====================================================================
+         4. BOTTOM ROW: FOOTER (Thông Tin Liên Hệ, Hệ Thống Chi Nhánh, Bản Quyền)
+         ==================================================================== -->
+    <div class="footer-row">
+      <div class="footer-columns">
+        <!-- Cột 1: Thương hiệu -->
+        <div class="footer-col">
+          <h4>Về Trà Sữa Hải Anh</h4>
+          <p class="footer-brand-desc">Thương hiệu trà sữa tươi nguyên bản mang đến những trải nghiệm hương vị ngọt ngào và năng lượng tích cực cho giới trẻ mỗi ngày.</p>
+          <p class="footer-license">Giấy chứng nhận ĐKKD: 0108962888 do Sở KH&ĐT cấp ngày 15/08/2021.</p>
+        </div>
+
+        <!-- Cột 2: Danh mục nhanh -->
+        <div class="footer-col">
+          <h4>Liên Kết Nhanh</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="menu.html">Thực Đơn Đầy Đủ</a></li>
+            <li><a href="checkout.html">Đặt Hàng & Thanh Toán</a></li>
+            <li><a href="about.html">Về Chúng Tôi</a></li>
+            <li><a href="contact.html">Liên Hệ & Đặt Bàn</a></li>
+          </ul>
+        </div>
+
+        <!-- Cột 3: Hệ thống cửa hàng -->
+        <div class="footer-col">
+          <h4>Hệ Thống Chi Nhánh</h4>
+          <ul class="branch-list">
+            <li>
+              <strong>Cơ sở Trương Định (Hoàng Mai):</strong>
+              281 Đường Trương Định, Tương Mai, Quận Hoàng Mai, Hà Nội
+            </li>
+            <li>
+              <strong>Hotline Đặt Hàng & Giao Tận Nơi:</strong>
+              <a href="tel:0373702762" style="color: var(--accent-rose); font-weight: 800; text-decoration: none;">0373 702 762</a>
+            </li>
+            <li>
+              <strong>Thời Gian Phục Vụ:</strong>
+              08:00 - 22:30 (Mở cửa cả tuần)
+            </li>
+            <li>
+              <strong>Hòm Thư Điện Tử:</strong>
+              <a href="mailto:tohaianh13@gmail.com" style="color: inherit; text-decoration: none;">tohaianh13@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Cột 4: Kết nối mạng xã hội & Hỗ trợ -->
+        <div class="footer-col">
+          <h4>Kết Nối Cùng Hải Anh</h4>
+          <p class="footer-brand-desc">Theo dõi các chương trình minigame nhận voucher mỗi tuần:</p>
+          <div class="social-pills">
+            <a href="https://www.facebook.com/to.haii.anhh" target="_blank" rel="noopener noreferrer" class="social-pill-btn">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-pill-btn">Instagram</a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" class="social-pill-btn">TikTok</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thanh bản quyền dưới cùng -->
+      <div class="footer-bottom-bar">
+        <span>© 2026 Trà Sữa Hải Anh.</span>
+        <div class="footer-badges-strip">
+          <span class="footer-badge-pill">100% Tự Nhiên</span>
+          <span class="footer-badge-pill">An Toàn VSTP</span>
+          <span class="footer-badge-pill">Freeship 50k</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- MODAL PHÓNG TO HÌNH ẢNH THUẦN CSS3 (KHÔNG DÙNG JS, BẤM LÀ HIỆN TOÀN BỘ CHI TIẾT 100%) -->
+  <div id="modal-hoang-kim" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-sua-tran-chau-hoang-kim.jpg" alt="Trà Sữa Trân Châu Hoàng Kim - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Sữa Trân Châu Hoàng Kim</h4>
+        <p>Đậm vị trà sữa • Trân châu hoàng kim giòn dai • Hương vị hảo hạng</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO TRÀ Ô LONG SỮA KEM PHÔ MAI -->
+  <div id="modal-o-long" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-o-long-sua-kem-pho-mai.jpg" alt="Trà Ô Long Sữa Kem Phô Mai - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Ô Long Sữa Kem Phô Mai</h4>
+        <p>Thanh mát hương trà • Béo mịn phô mai • 100% Sữa tươi nguyên chất</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO TRÀ ĐÀO CAM SẢ TƯƠI MÁT -->
+  <div id="modal-dao-cam-sa" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-dao-cam-sa-tuoi-mat.jpg" alt="Trà Đào Cam Sả Tươi Mát - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Đào Cam Sả Tươi Mát</h4>
+        <p>Đào tươi ngọt thanh • Cam tươi giàu vitamin • Sả thơm tự nhiên giải nhiệt</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO SỮA TƯƠI TRÂN CHÂU ĐƯỜNG ĐEN -->
+  <div id="modal-duong-den" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="sua-tuoi-tran-chau-duong-den.jpg" alt="Sữa Tươi Trân Châu Đường Đen - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Sữa Tươi Trân Châu Đường Đen</h4>
+        <p>Sữa tươi nguyên chất • Trân châu dẻo dai • Đường đen thượng hạng</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO TRÀ NHÀI SỮA KEM TRỨNG DỪA -->
+  <div id="modal-nhai-kem-trung" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-nhai-sua-kem-trung-dua.jpg" alt="Trà Nhài Sữa Kem Trứng Dừa - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Nhài Sữa Kem Trứng Dừa</h4>
+        <p>Trà nhài thanh mát • Kem trứng béo mịn • Dừa thơm ngon khó cưỡng</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO TRÀ Ô LONG NHÀI -->
+  <div id="modal-o-long-nhai" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-o-long-nhai.jpg" alt="Trà Ô Long Nhài - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Ô Long Nhài</h4>
+        <p>Thanh mát • Nhẹ nhàng • Thơm dịu hoa nhài tự nhiên</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO TRÀ DÂU TÂY LỤC TRÀ THANH YÊN -->
+  <div id="modal-dau-tay" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-dau-tay-luc-tra-thanh-yen.jpg" alt="Trà Dâu Tây Lục Trà Thanh Yên - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Dâu Tây Lục Trà Thanh Yên</h4>
+        <p>Thanh mát từ lục trà • Ngọt ngào từ dâu tây • Thơm dịu thanh yên</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO TRÀ XANH CHANH LEO HẠT CHIA -->
+  <div id="modal-chanh-leo" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-xanh-chanh-leo-hat-chia.jpg" alt="Trà Xanh Chanh Leo Hạt Chia - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Xanh Chanh Leo Hạt Chia</h4>
+        <p>Thanh mát giải nhiệt • Chua nhẹ tự nhiên • Hạt chia giàu dinh dưỡng</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PHÓNG TO TRÀ VIỆT QUẤT -->
+  <div id="modal-viet-quat" class="image-modal-lightbox">
+    <a href="#close" class="modal-backdrop-overlay" title="Bấm vào khoảng trống để đóng"></a>
+    <div class="modal-image-card">
+      <a href="#close" class="modal-close-btn" title="Đóng">&times;</a>
+      <img src="tra-viet-quat.jpg" alt="Trà Việt Quất - Toàn bộ chi tiết poster">
+      <div class="modal-image-caption">
+        <h4>Trà Việt Quất</h4>
+        <p>Thanh mát chua nhẹ • Vị ngọt dịu • Hương việt quất thật thơm</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
